@@ -226,11 +226,21 @@ CARDS
     text-overflow: ellipsis;
     padding-top: 2px;
     padding-bottom: 1px;
-    text-align: left;
 }
 .card-header.icon{
-    padding-left: 4px;
+    text-align: left;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
+
+.img-round{
+    height: 180px;
+    border-radius: 5%;
+    border: 5px solid rgb(255, 255, 255);
+}
+
 .header-inactive{
     background: gray !important;
 }
@@ -267,7 +277,7 @@ NAVBAR
     margin-left: 12px;
     font-size: 12px;
     list-style-type: none;
-    background: silver;
+    background: rgb(243, 195, 221);
     border: 1.8px outset #fff;
     border-radius: 0;
     -webkit-box-shadow: 1.5px 1.5px #000;
