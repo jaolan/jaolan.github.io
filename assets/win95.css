@@ -18,7 +18,7 @@ Body styles
 */
 body {
     font-family: "MS Sans Serif",Tahoma,Verdana,Segoe,sans-serif; 
-    background: teal;
+    background: rgb(94, 140, 170);
     color: white;
     padding-bottom: 28px;
 }
@@ -53,6 +53,7 @@ header .container {
   position: relative;
   z-index: 2;
 }
+
 /*
 
 Scrollbar (only chrome & safari)
@@ -154,13 +155,13 @@ Scrollbar (only chrome & safari)
 }
 .btn:hover {
     border: 2px inset #fff;
-    background: silver;
+    background: rgb(202, 165, 201);
     color: #424242;
     box-shadow: -1px -1px #000;
 }
 .btn:focus {
     border: 2px inset #fff !important;
-    background: silver;
+    background: rgb(204, 173, 204);
     color: #424242;
     box-shadow: -1px -1px #000 !important;
     outline: 0 !important;
@@ -287,7 +288,7 @@ NAVBAR
     padding: 1px 0 1px 2px;
 }
 .dropdown-item:hover{
-    color:#08216b;
+    color:#d3a6cd;
 }
 .navbar-light .navbar-toggler.collapsed .navbar-toggler-icon {
     width: 32px;
@@ -307,7 +308,7 @@ FOOTER
 */
 .taskbar{
     cursor: default;
-    background-color: silver;
+    background: rgb(253, 213, 232);
     margin: 0;
     padding: 0 8px;
     position: static;
