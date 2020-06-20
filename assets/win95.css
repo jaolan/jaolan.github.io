@@ -566,3 +566,12 @@ TODO: make it draggable;
 .modal-footer{
     padding: 6px;
 }
+
+/*
+
+IMAGE STYLES
+
+*/
+.svg-fill {
+    fill: rgb(255, 109, 187);
+}
