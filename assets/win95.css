@@ -27,6 +27,14 @@ body {
     color:#212529;
 }
 
+h2, h3 {
+    font-size: 4.5vh;
+}
+
+h4, h5 {
+    font-size: 2.5vh;
+}
+
 header {
   position: relative;
   background-color: black;
@@ -234,12 +242,6 @@ CARDS
     padding-right: 24px;
     padding-top: 24px;
     padding-bottom: 24px;
-}
-
-.img-round{
-    height: 180px;
-    border-radius: 5%;
-    border: 5px solid rgb(255, 255, 255);
 }
 
 .header-inactive{
@@ -572,6 +574,12 @@ TODO: make it draggable;
 IMAGE STYLES
 
 */
+.img-round{
+    height: 25vh;
+    border-radius: 5%;
+    border: 5px solid rgb(255, 255, 255);
+}
+
 .svg-fill {
     fill: rgb(255, 109, 187);
 }
