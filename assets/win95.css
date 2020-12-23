@@ -18,7 +18,7 @@ Body styles
 */
 body {
     font-family: "MS Sans Serif",Tahoma,Verdana,Segoe,sans-serif; 
-    background: rgb(94, 140, 170);
+    background: rgb(180, 224, 241);
     color: white;
     padding-bottom: 28px;
 }
@@ -48,8 +48,10 @@ h4, h5 {
 
 header {
   position: relative;
-  background-color: black;
-  height: 100vh;
+  background-color: rgb(180, 224, 241);
+  /* background-image: url('90s.jpeg');
+  background-size: contain; */
+  height: 80vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
@@ -167,7 +169,7 @@ Scrollbar (only chrome & safari)
     border-color: buttonface;
     border-right-color: #424242;
     border-bottom-color: #424242;
-    background: rgb(231, 170, 227);
+    background: #f0b6d3;
     color: black;
     padding: 0 0 4px;
     border-radius: 1px;
@@ -238,7 +240,7 @@ CARDS
     /* OR #000082 is better?*/
 }
 .card-header{
-    background: -webkit-linear-gradient(left,#fa89c2,#ffbefc);
+    background: -webkit-linear-gradient(left,#f0b6d3,rgb(248, 205, 232));
     color: #fff;
     display: block;
     white-space: nowrap;
@@ -266,7 +268,6 @@ NAVBAR
 
 */
 .navbar-95{
-    
     background: rgb(253, 213, 232);
     margin: 0;
     border: 1px outset #fff;
