@@ -169,7 +169,7 @@ Scrollbar (only chrome & safari)
     border-color: buttonface;
     border-right-color: #424242;
     border-bottom-color: #424242;
-    background: #f0b6d3;
+    background: #ecba90;
     color: black;
     padding: 0 0 4px;
     border-radius: 1px;
@@ -226,7 +226,7 @@ CARDS
     border-right-color: #424242;
     border-left-color: #fff;
     border-top-color: #fff;
-    background: rgb(253, 212, 238);
+    background: #ffcca2;
     color:#212529;
 }
 .card.square{
@@ -240,7 +240,7 @@ CARDS
     /* OR #000082 is better?*/
 }
 .card-header{
-    background: -webkit-linear-gradient(left,#f0b6d3,rgb(248, 205, 232));
+    background: -webkit-linear-gradient(left,rgb(233,100,108),rgb(233, 164, 108));
     color: #fff;
     display: block;
     white-space: nowrap;
@@ -268,7 +268,7 @@ NAVBAR
 
 */
 .navbar-95{
-    background: rgb(253, 213, 232);
+    background: rgb(247, 198, 158);
     margin: 0;
     border: 1px outset #fff;
     min-height: 40px;
@@ -293,7 +293,7 @@ NAVBAR
     margin-left: 12px;
     font-size: 12px;
     list-style-type: none;
-    background: rgb(243, 195, 221);
+    background: rgb(247, 198, 158);
     border: 1.8px outset #fff;
     border-radius: 0;
     -webkit-box-shadow: 1.5px 1.5px #000;
@@ -323,7 +323,7 @@ FOOTER
 */
 .taskbar{
     cursor: default;
-    background: rgb(253, 213, 232);
+    background: rgb(247, 198, 158);
     margin: 0;
     padding: 0 8px;
     position: static;
@@ -596,3 +596,33 @@ IMAGE STYLES
 .svg-fill {
     fill: rgb(255, 109, 187);
 }
+
+/*
+PDF View Style
+*/
+.modal-window {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.2);
+    z-index: 99999;
+    opacity:0;
+    pointer-events: none;
+    text-align:center;
+    overflow-y: auto;
+    }
+    
+    .modal-window:target {
+    opacity:1;
+    pointer-events: auto;
+    }
+    
+    .modal-window > div {
+    width: 800px;
+    position: relative;
+    margin: 10% auto;
+    background: rgb(90, 90, 90);
+    overflow-y: auto;
+    }
