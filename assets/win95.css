@@ -240,7 +240,7 @@ CARDS
     /* OR #000082 is better?*/
 }
 .card-header{
-    background: -webkit-linear-gradient(left,rgb(233,100,108),rgb(233, 164, 108));
+    background: -webkit-linear-gradient(left,rgb(233, 173, 125),rgb(233, 164, 108));
     color: #fff;
     display: block;
     white-space: nowrap;
