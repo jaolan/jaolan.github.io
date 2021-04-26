@@ -55,6 +55,7 @@ header {
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
+  margin: 20px;
 }
 header video {
   position: absolute;
