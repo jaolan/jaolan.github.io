@@ -53,9 +53,9 @@ header {
   background-size: contain; */
   height: 80vh;
   min-height: 25rem;
-  width: 100%;
+  width: 95%;
   overflow: hidden;
-  margin: 20px;
+  margin: 10px;
 }
 header video {
   position: absolute;
