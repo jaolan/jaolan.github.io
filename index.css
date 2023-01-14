@@ -68,6 +68,12 @@ h1, h2, h3, h4, p, li {
   /* padding: 10px; */
   margin: 10px;
   /* margin-left: 20px; */
+  pointer-events: none; 
+  -webkit-touch-callout: none; 
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
 }
 
 .buttonGroup {
@@ -129,11 +135,25 @@ justify-content: center;
 
 /* Mobile styles */
 @media all and (max-device-width: 600px) {
+
+  h1, h2 {
+    font-size: 1.5em;
+  }
+
+  h3, p, li {
+    font-size: 1em;
+  }
+
+  .card-bottom {
+    /* font-size: 0.75em; */
+  }
+
   .card {
     width: 80%;
     font-size: 2.5em;
     border: 5px solid black;
     border-radius: 20px;
+    /* height: 85%; */
   }
 
   .bio-text {
@@ -146,7 +166,7 @@ justify-content: center;
 
   .form-button {
     margin: 10px 0 20px 0;
-    font-size: 1em;
+    font-size: 0.77em;
     width: 100%;
     border: 2.5px solid;
   }
