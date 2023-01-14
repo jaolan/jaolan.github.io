@@ -1,89 +1,95 @@
 <!DOCTYPE html>
+
 <html lang="en" dir="ltr">
-<head>
-    <meta charset="utf-8">
-    <title>jorel.cc</title>
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
-    <meta author="Jorel O" />
-    <meta property="og:image" content="assets/preview.png" />
-    
-    <link rel="shortcut icon" href="assets/icons/computer-3.png" type="image/png">
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-      
-    <link rel="stylesheet" type="text/css" href="assets/win95.css"> 
-</head>
-<body>
+  <!-- metadata here -->
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="mobile.css">
+  </head>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light navbar-95 ">
-  <a class="navbar-brand" href="http://jorel.cc">
-      <img src="assets/icons/windows_update_large-5.png" width="32" height="32"> jorel.cc</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  <body>
 
-  <!-- Navbar Dropdown -->
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Projects I've Worked On
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="https://avalgo.io" target="_blank">Avalgo.io</a>
-          <a class="dropdown-item" href="https://apps.apple.com/us/app/3d-musica-ai-boosted-concert/id1520800538" target="_blank">3D Musica</a>
-          <!-- <a class="dropdown-item" href="#">More Listed Soon</a> -->
+    <!-- 
+      ** start card layout **
+
+        jorel olan                 _____
+        software engineer         | img |
+        full-stack, iOS, audio    |_____|
+        ___________________________________
+
+        bio goes here
+
+      ** end card layout **
+     -->
+    <div class="card">
+      <div class="card-top">
+        <!-- card info -->
+        <div class="card-top-left">
+          <h1> Jorel Olan </h1>
+          <h2> Software Engineer </h2>
+          <h3> Full-Stack, iOS, Audio </h3>
         </div>
-      </li>
-    </ul>
-  </div>
-</nav>
 
-<!-- Content Card -->
-<header class="mb-5">
-  <div class="container h-100">
-    <div class="d-flex justify-content-center h-100 align-items-center">
-      <div class="card" style="width: 60vh;">
-              <div class="card-header icon">
-                <img class="img-round" style="float:right" src="assets/avi-4.jpg" height="150"><h2 class="my-4 font-weight-bold job-info"> Jorel Olan</h2>
-                <h4 class="my-0 font-weight-normal job-info">Software Engineer</h4>
-                <h5 class="my-0 font-weight-normal job-info">Full-Stack, Web3, AI, iOS</h5>
-              </div>
-              <div class="card-body">
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>I'm Jorel. I specialize in full-stack dev, machine learning (mobile/embedded), iOS, and UI/UX design. In my free time I create Web3 dApps on Ethereum and Avalanche.</li>
-                  <br>
-                  <li>Co-inventor of cool 3D audio patents <a href="https://patents.google.com/patent/US20210321212A1/">(pending)</a>.</li>
-                </ul>
-                <div class="btn-group btn-block" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-secondary" onclick="window.open('assets/Jorel_Olan_Resume_June.pdf', '_blank');"><img src="assets/icons/font_adobe-0.png" class="icon-16"> Resume </button>
-                  <button type="button" class="btn btn-secondary" onclick="window.open('https://www.linkedin.com/in/jorelolan/', '_blank');"><img src="assets/icons/msie1-1.png" class="icon-16"> Linkedin </button>
-                  <button type="button" class="btn btn-secondary" onclick="window.open('https://github.com/jaolan', '_blank');"><img src="assets/icons/computer_2_cool-0.png" class="icon-16"> GitHub </button>
-                </div>
-              </div>
-            </div>
-    </div>
-  </div>
-</header>
- 
-</header>
-  <footer class="taskbar">
-      <div class="row" style="margin-right: 0px;">
-          <div class="col-8">
-              <a href="#" class="btn start-button"><img src="assets/icons/windows-0.png" class="icon-16">Start</a>
-              <a href="https://github.com/jaolan" class="btn start-button"><img src="assets/icons/computer_2_cool-0.png" class="icon-16"> GitHub</a>
-          </div> 
+        <!-- card image -->
+        <div class="card-top-right">
+          <!-- insert image here -->
+          <!-- public/avi-4.jpg -->
+          <img src="public/llama2.svg" class="headshot"/>
+        </div>
       </div>
-    
-  </footer>
 
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  
-    
-</body>
+      <!-- card bio -->
+      <div class="card-bottom">
+        <p class="bio-text"> Hello! I'm Jorel. I specialize in full-stack development, iOS development, machine learning, and anything audio. I live and breathe music on and off the clock.</p>
+        <p> Fun stuff I've worked on: </p>
+        <ul>
+          <li>
+            <a href="https://spectrum.ieee.org/3d-audio" target="_blank">
+            IEEE Magazine Feature, Music Deep Learning
+            </a>
+          </li>
+          <li>
+            <a href="https://patents.google.com/patent/US20210321212A1/" target="_blank">
+            Three Dimensional Audio Systems, Co-Inventor
+            </a>
+          </li>
+          <li>
+            <a href="https://avalgo.io" target="_blank">
+            Avalgo.io, Learn and Earn Coding (web3 hackathon - IPFS/Filecoin leadership board winner)
+            </a>
+          </li>
+          <li>
+            <a href="https://www.3dsoundstage.com/ieee" target="_blank">
+            3D Soundstage (click here for demo)
+            </a>
+          </li>
+          <li>
+            <a href="https://apps.apple.com/app/3d-musica-spatial-vr-audio/id1520800538" target="_blank">
+            3D Musica App - 3D Music, Karaoke and Instrument Isolation in Realtime
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- 
+        *** start button layout ***
+          __________  ___________   __________
+          | resume |  | linkedin |  | github |
+          ----------  ------------  ----------
+        *** end button layout ***
+       -->
+      <div class="form-group">
+        <form action="public/Jorel_Olan_Resume_June.pdf" target="_blank">
+          <input class="form-button" type="submit" value="Resume" />
+        </form>
+        <form action="https://www.linkedin.com/in/jorelolan/" target="_blank">
+          <input class="form-button" type="submit" value="LinkedIn" />
+        </form>
+        <form action="https://github.com/jaolan" target="_blank">
+          <input class="form-button" type="submit" value="GitHub" />
+        </form>
+      </div>
+
+    </div>
+  </body>
 </html>
