@@ -1,53 +1,96 @@
-html {
- background-color: rgb(217, 217, 217);
-}
-
 body {
-  font-family: Arial, sans-serif;
-  justify-content: center;
-  align-items: center;
-}
-
-h1, h2, h3, h4, p, li {
-  color: black;
+  font-family: 'Arial', sans-serif; /* Sans Serif for "authenticity" */
+  background-color: #008080; /* Teal background, common in old-school Windows themes */
+  margin: 0;
+  padding: 0;
+  color: #000000;
 }
 
 .card {
-  /* card styling */
-  margin: 5px 15px 10px 15px;
-  padding: 10px 30px 3px 30px;
-  border-radius: 5px;
-  border: 2px solid black;
-  background-color: white;
-  box-shadow: 10px 10px darkgray;
-  -webkit-box-shadow: 10px 10px darkgray;
-  -moz-box-shadow: 10px 10px darkgray;
+  background-color: #c0c0c0; /* Classic gray background */
+  margin: 20px auto;
+  border: 2px solid black; /* Flat black border */
+  padding: 8px;
+  box-shadow: none; /* No shadow for a flat look */
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
 }
 
 .card-header {
+  background-color: #000080; /* Dark blue header */
+  color: white;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  padding: 8px;
+  border-bottom: 2px solid black;
 }
 
-.card-header-left {
-  width: 60%;
+.card-header-left h1, .card-header-left h2, .card-header-left h3 {
+  margin: 0;
+  font-family: 'Courier New', monospace; /* Pixelated monospaced font for authenticity */
 }
 
-.card-header-right {
-  width: 40%;
-}
-
-.headshot {
-  opacity: 10%;
-  background-color: blue;
-  height: auto; /* keep img aspect ratio */
+.card-header-right img {
+  width: 100px;
+  height: 100px;
+  border-radius: 0;
 }
 
 .card-body {
-
+  padding: 16px;
+  background-color: #ffffff;
 }
 
 .card-text {
+  margin-top: 0;
+  font-family: 'Courier New', monospace;
+}
 
+.headshot {
+  background-color: white;
+}
+
+button {
+  background-color: #000080; /* Dark blue buttons */
+  color: white;
+  border: 2px outset #ffffff; /* Outset border for a w95-like 3D effect */
+  border-radius: 0;
+  padding: 10px 20px;
+  font-family: 'Courier New', monospace;
+  cursor: pointer;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+   /* Center text alignment for all content within the header */
+  .card-header {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  /* Centering individual header text elements */
+  .card-header-left h1, .card-header-left h2, .card-header-left h3 {
+      align-self: center;
+  }
+
+   /* Centering the image within the header */
+  .card-header-right img {
+      margin-top: 8px;
+      align-self: center;
+  }
+
+  /* Adjusting width, margin to account for borders */
+  button {
+      width: calc(100% - 16px);
+      margin: 10px 8px;
+  }
 }
